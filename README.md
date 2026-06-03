@@ -24,7 +24,10 @@ Contém notebooks com análises e modelagem dos dados:
 
 ### 📁 Tratativas/
 Contém funções de limpeza e transformação de dados:
-- `tratativa.ipynb` - Notebook com funções utilitárias para:
+- `tratativa.ipynb` - Notebook original com funções utilitárias para trabalhar em arquivos locais.
+- `tratativa_sem_original.ipynb` - Notebook adaptado para uso em Google Colab, operando apenas em DataFrames em memória e sem gravar sobre os dados originais.
+
+Funções de tratamento disponíveis:
   - Limpeza de texto (`limpar_avaliacoes`)
   - Remoção de linhas vazias (`remover_linhas_sem_review`)
   - Junção de campos (`juntar_titulo_mensagem`)
@@ -32,4 +35,7 @@ Contém funções de limpeza e transformação de dados:
   - Conversão de tipos de dados (`converter_para_string`, `converter_para_datetime`)
 
 #### ⚠️ Importante sobre Tratativas
-**Não é necessário executar os arquivos de tratativas regularmente.** As funções definidas em `tratativa.ipynb` devem ser executadas **apenas quando há uma nova função de tratamento a ser implementada**. Após criar uma nova função, ela deve ser aplicada aos dados imediatamente e os dados salvos de volta na tabela original.
+**Não é necessário executar os arquivos de tratativas regularmente.** As funções definidas em `tratativa.ipynb` ou `tratativa_sem_original.ipynb` devem ser executadas **apenas quando há uma nova função de tratamento a ser implementada**.
+
+- Na branch `main`, a tabela `avaliacoes.csv` já está totalmente tratada.
+- Na branch `dataset-original`, todas as tabelas permanecem no estado de origem (dados não tratados).
