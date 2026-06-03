@@ -66,6 +66,9 @@ O Vader possui grande similaridade com o modelo LeIA, no entanto ela apresenta m
 ### ☁️ TextBlob
 O TextBlob trouxe métricas relevantes à pesquisa, mesmo apresentando resultados de acurácia inferiores aos demais, tornou-se possível com esse modelo medir a subjetividade do comentário, separando assim as opiniões puramente emocionais dos fatos racionais. Porém, por ter um padrão de reconhecimento de textos em inglês, fez-se necessário a utilização de bibliotecas externas para a tradução dos textos em português, resultando em uma maior complexidade na utilização do modelo. Além do TextBlob possuir uma maior rigidez, não compreendendo a linguagem informal da internet.
 
+### 🤗 Transformers
+O Transformers, é um dos modelos mais utilizados e com melhores resultado da análise. O modelo funciona realizando a leitura da frase completa, ao invés de palavra por palavra, assim compreendendo melhor contxto, ordem da gramática e o significado real por trás do comentário. Sua vantagem é ser capaz de compreender sentimentos mais complexos relacionados ao ser humano, identificando ironias, duplo sentido e sentimentos ocultos. Além de que possui familiaridade com a língua inglesa e portuguesa, funcionando da mesma forma para ambas as traduções. Também contendo diversas bibliotecas que geram diferentes resultados e análises do projeto. As desvantagens relacionadas a esse modelo é sua maior complexidade e robustez, com um processamento mais lento em comparação aos outros modelos.
+
 #### ⚠️ Importante sobre Tratativas
 **Não é necessário executar os arquivos de tratativas regularmente.** As funções definidas em `tratativa.ipynb` ou `tratativa_sem_original.ipynb` devem ser executadas **apenas quando há uma nova função de tratamento a ser implementada**.
 
