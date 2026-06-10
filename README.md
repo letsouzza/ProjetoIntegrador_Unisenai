@@ -81,3 +81,11 @@ O Transformers, é um dos modelos mais utilizados e com melhores resultado da an
   - Um que **altera os dados originais** nos arquivos CSV
   - Um que **não altera** (versão segura para desenvolvimento)
 - Na branch `dataset-original`, todas as tabelas permanecem no estado de origem (dados não tratados).
+
+#### 👥 integrantes
+
+- [Mohammad Salim](https://www.linkedin.com/in/mohammad-salim-s-s/)
+- [Leticia Souza Almeida](https://www.linkedin.com/in/leticia-souza-almeida/)
+- [Leonardo Sousa]([https://www.linkedin.com/in/mohammad-salim-s-s/](https://www.linkedin.com/in/leonardo-sousa-9b9325312/))
+- [Victor Lapa](https://www.linkedin.com/in/victor-lapa-7b4476293/)
+- [Julio]()
